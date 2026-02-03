@@ -1,5 +1,6 @@
 import { StatusBar, useColorScheme } from "react-native"
 import { NavigationContainer } from "@react-navigation/native"
+import "./styles.css"
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 import { SafeAreaProvider } from "react-native-safe-area-context"
 import { Dumbbell, Utensils, LineChart, MessageSquare, Users } from "lucide-react-native"
